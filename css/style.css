@@ -162,7 +162,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 80px;
 }
 
 /*--------------------------------------------------------------
@@ -171,7 +171,7 @@ h6 {
 .get-started-btn {
   color: #fff;
   border-radius: 4px;
-  padding: 7px 25px 8px 25px;
+  padding: 7px 15px 8px 15px;
   white-space: nowrap;
   transition: 0.3s;
   font-size: 14px;
@@ -419,13 +419,13 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/homepage_background.JPEG") top center; 
+  background: url("../img/pixel.jpeg") top center; 
   position: relative;
 }
 
 #hero:before {
   content: "";
-  background: rgba(250, 245, 245, 0.068);
+  background: #fff(250, 245, 245, 1.88);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -444,16 +444,16 @@ h6 {
   font-size: 56px;
   font-weight: 700;
   line-height: 64px;
-  color: #EDE2D3;
+  color: #8E7D63;
   font-family: "Poppins", sans-serif;
 }
 
 #hero h1 span {
-  color: #fff;
+  color: #FC0D1B;
 }
 
 #hero h2 {
-  color: rgba(255, 255, 255, 0.9);
+  color: #8E7D63(255, 255, 255, 0.9);
   margin: 10px 0 0 0;
   font-size: 24px;
 }
@@ -461,7 +461,7 @@ h6 {
 #hero .icon-box {
   padding: 30px 20px;
   transition: ease-in-out 0.3s;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 3px solid #ff0000(255, 255, 255);
   height: 100%;
   text-align: center;
 }
@@ -469,7 +469,7 @@ h6 {
 #hero .icon-box i {
   font-size: 32px;
   line-height: 1;
-  color: #EDE2D3;
+  color: #8E7D63;
 }
 
 #hero .icon-box h3 {
@@ -482,21 +482,22 @@ h6 {
 }
 
 #hero .icon-box h3 a {
-  color: #fff;
+  color: #8E7D63;
   transition: ease-in-out 0.3s;
 }
 
 #hero .icon-box h3 a:hover {
-  color: #8E7D63;
+  color: #FC0D1B;
 }
 
 #hero .icon-box:hover {
-  border-color: #8E7D63;
+  border-color: #FC0D1B;
 }
 
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
+    color: #fff(0, 0, 0, 0.4);
   }
 }
 
